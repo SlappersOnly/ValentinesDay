@@ -1,0 +1,38 @@
+{
+  "__inherits": "staxel/crafting/recipes/craftingRecipe.config",
+  "code": "mods.ValentinesDay.recipes.HeartShelf",
+  "grouping": "Valentine",
+  "ingredients": [
+    {
+      "code": "staxel.item.crafting.Lumber",
+      "quantity": 2
+    },
+    {
+          "kind": "staxel.item.Placer",
+          "tile": "staxel.tileObject.serverVillage.Bookshelf",
+		  "quantity" : 1
+    },
+    {
+          "code": "mods.ValentinesDay.HeartPetal",
+          "quantity": 4
+    }
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "sellPrice": 351,
+    "value": 585
+  },
+  "result": {
+    "count": 1,
+    "item": {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.ValentinesDay.HeartShelf"
+    }
+  },
+  "searchable": false,
+  "starter": true,
+  "steps": [
+	"mods.ValentinesDay.reactions.HeartShelf"
+  ],
+}

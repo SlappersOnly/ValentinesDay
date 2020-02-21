@@ -1,0 +1,25 @@
+{
+    "interactActionTrigger": "staxel.entityAction.BreakAndPickupAction",
+    "__inherits": "staxel/tileObject/base.config",
+    "code": "mods.ValentinesDay.GiftBoxUsed",
+    "interactVerb": "controlHint.verb.Pickup",
+    "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+    "categories": [
+        "valentine",
+        "chocolate",
+        "treasure",
+        "loot",
+        "chest",
+        "red"
+    ],
+    "randomizePosition": false,
+    "voxels": "mods/ValentinesDay/GiftBox/GiftBoxUsed.qb",
+    "pricing": {
+        "buyable": true,
+        "catalogueUnlockedFromStart": false,
+        "sellPrice": 600,
+        "value": 1000
+    },
+    "searchable": true,
+	"representativeTile": "mods.ValentinesDay.GiftBoxDecorative"
+}

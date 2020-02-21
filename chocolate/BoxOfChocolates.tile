@@ -1,0 +1,29 @@
+{
+    "__inherits": "staxel/tileObject/base.config",
+    "code": "mods.ValentinesDay.BoxOfChocolates",
+    "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+    "categories": [
+        "valentine",
+        "chocolate",
+        "treasure",
+        "loot",
+        "chest",
+        "red"
+    ],
+    "randomizePosition": false,
+    "tileStateKind": "staxel.tileState.Lootable",
+    "voxels": "mods/ValentinesDay/chocolate/BoxOfChocolates.qb",
+    "pricing": {
+        "buyable": false,
+        "catalogueUnlockedFromStart": false,
+        "sellPrice": 600,
+        "value": 1000
+    },
+    "lootable": {
+        "lootEffect": "mods.ValentinesDay.effect.LootBoxOfChocolates",
+        "usedTile": "mods.ValentinesDay.BoxOfChocolatesUsed",
+        "singleUse": true,
+        "treasure": "mods.ValentinesDay.treasure.BoxOfChocolates"
+    },
+    "searchable": true
+}

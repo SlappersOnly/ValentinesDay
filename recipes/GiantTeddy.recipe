@@ -1,0 +1,41 @@
+{
+  "__inherits": "staxel/crafting/recipes/craftingRecipe.config",
+  "code": "mods.ValentinesDay.recipes.GiantTeddy",
+  "grouping": "Valentine",
+  "ingredients": [
+    {
+          "code": "mods.ValentinesDay.HeartPetal",
+          "quantity": 3
+    },
+    {
+          "code": "staxel.item.crafting.Rope",
+          "quantity": 2
+    },
+    {
+          "code": "staxel.item.crafting.Glue",
+          "quantity": 2
+    },
+    {
+          "code": "staxel.item.crafting.SackCloth",
+          "quantity": 3
+    }
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "sellPrice": 351,
+    "value": 585
+  },
+  "result": {
+    "count": 1,
+    "item": {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.ValentinesDay.GiantTeddy"
+    }
+  },
+  "searchable": false,
+  "starter": true,
+  "steps": [
+	"mods.ValentinesDay.reactions.GiantTeddy"
+  ],
+}

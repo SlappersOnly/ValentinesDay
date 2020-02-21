@@ -1,0 +1,29 @@
+{
+    "__inherits": "staxel/tileObject/base.config",
+    "code": "mods.ValentinesDay.GiantTeddy",
+    "floats": true,
+    "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+    "tilePlacement": {
+        "inHandRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "inHandScale": 1
+    },
+    "categories": ["teddy", "brown", "valentine"],
+    "randomizePosition": false,
+    "compound": {"size": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+    }},
+    "voxels": "mods/ValentinesDay/tileObject/GiantTeddy.qb",
+    "pricing": {
+        "buyable": true,
+        "catalogueUnlockedFromStart": false,
+        "sellPrice": 50,
+        "value": 200
+    },
+    "searchable": true
+}

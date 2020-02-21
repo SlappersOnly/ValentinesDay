@@ -1,0 +1,58 @@
+{
+  "kind": "staxel.mail.item",
+  "icon": "mods/ValentinesDay/ValentineLetterIcon.png",
+  "readIcon": "mods/ValentinesDay/ValentineLetterIconOpen.png",
+  "code": "mods.ValentinesDay.mail.Valentine",
+  "sender": "mods.ValentinesDay.sender.BucketBrigade",
+  "subject": "mods.ValentinesDay.mail.subject",
+  "body": "mods.ValentinesDay.mail.body",
+  "postDatedMail": {
+    "startDay": 14,
+    "startMonth": 2,
+    "startYear": 2020,
+    "endDay": 21,
+    "endMonth": 2,
+    "endYear": 2020,
+    "repeatYearly": true
+  },
+  "itemMail": {
+    "claimedIcon": "staxel/ui/image/Mail/LetterIconOpen.png",
+    "items": [
+      {
+        "kind": "staxel.item.Placer",
+        "tile": "mods.ValentinesDay.BoxOfChocolates",
+        "quantity": 1
+      },
+      {
+        "kind": "staxel.item.Placer",
+        "tile": "mods.ValentinesDay.PinkHeartBalloon",
+        "quantity": 1
+      },
+      {
+        "kind": "staxel.item.Placer",
+        "tile": "mods.ValentinesDay.PurpleHeartBalloon",
+        "quantity": 1
+      },
+      {
+        "kind": "staxel.item.Placer",
+        "tile": "mods.ValentinesDay.RedHeartBalloon",
+        "quantity": 1
+      },
+      {
+        "kind": "staxel.item.Placer",
+        "tile": "mods.ValentinesDay.GiantTeddy",
+        "quantity": 1
+      },
+      {
+        "kind": "staxel.item.Placer",
+        "tile": "mods.ValentinesDay.SmallTeddy",
+        "quantity": 1
+      },
+      {
+        "kind": "staxel.item.Placer",
+        "tile": "mods.ValentinesDay.BunchOfRoses",
+        "quantity": 1
+      }
+    ]
+  }
+}

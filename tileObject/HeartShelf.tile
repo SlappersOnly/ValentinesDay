@@ -1,0 +1,38 @@
+{
+    "__inherits": "staxel/docks/dockBase.config",
+    "code": "mods.ValentinesDay.HeartShelf",
+    "wallPushOut": true,
+    "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+    "dockDefinition": "mods.ValentinesDay.docks.HeartShelf",
+    "prefetchTileState": true,
+    "categories": [
+        "container",
+        "storage",
+        "valentine",
+        "furniture",
+        "cabinet",
+        "closet",
+        "cupboard",
+        "pantry",
+        "credenza",
+        "double",
+        "red"
+    ],
+    "compound": {
+        "size": {
+            "x": 1,
+            "y": 3,
+            "z": 3
+        }
+    },
+  //"light" : 1.0,
+  //"emissiveColor" : "ffaaacaf",
+  "voxels": "mods/ValentinesDay/tileObject/HeartShelf.qb",
+    "pricing": {
+        "buyable": true,
+        "catalogueUnlockedFromStart": true,
+        "sellPrice": 5,
+        "value": 280
+    },
+    "searchable": true
+}

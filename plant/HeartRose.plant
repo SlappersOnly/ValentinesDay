@@ -1,0 +1,90 @@
+{
+  "categories": [
+    "plant",
+    "red",
+    "pink",
+    "flower",
+    "seed",
+    "seeds",
+	"valentine"
+  ],
+  "code": "mods.ValentinesDay.HeartRose",
+  "growthTime": 3,
+  "icon": "mods/ValentinesDay/plant/HeartRoseSeedPacket.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.54
+  },
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 15,
+    "value": 35
+  },
+  "seasons": ["winter"],
+  "searchable": true,
+  "stages": {
+    "HeartRoseGrown1": {
+      "alt": 3,
+      "interactionEntityAction": "staxel.entityAction.HarvestPullable",
+      "particles": "staxel.particle.harvest.PickCrops",
+      "pickEntirely": true,
+      "pickedTreasure": "mods.ValentinesDay.treasure.HeartRose",
+      "scytheable": {}
+    },
+    "HeartRoseGrown2": {
+      "alt": 4,
+      "interactionEntityAction": "staxel.entityAction.HarvestPullable",
+      "particles": "staxel.particle.harvest.PickCrops",
+      "pickEntirely": true,
+      "pickedTreasure": "mods.ValentinesDay.treasure.HeartRose",
+      "scytheable": {}
+    },
+    "HeartRoseGrown3": {
+      "alt": 5,
+      "interactionEntityAction": "staxel.entityAction.HarvestPullable",
+      "particles": "staxel.particle.harvest.PickCrops",
+      "pickEntirely": true,
+      "pickedTreasure": "mods.ValentinesDay.treasure.HeartRose",
+      "scytheable": {}
+    },
+    "HeartRoseSprout2": {
+      "alt": 1,
+      "grow": "HeartRoseSprout3",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {}
+    },
+    "HeartRoseSprout3": {
+      "alt": 2,
+      "growRandom": [
+        "HeartRoseGrown1",
+        "HeartRoseGrown2",
+        "HeartRoseGrown3"
+      ],
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {}
+    },
+    "seed": {
+      "alt": 0,
+      "grow": "HeartRoseSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "shovelable": {}
+    }
+  },
+  "tile": "mods.ValentinesDay.plant.HeartRose"
+}

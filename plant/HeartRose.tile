@@ -1,0 +1,21 @@
+{
+  "__inherits": "staxel/plant/crop/base.config",
+  "categories": [
+    "red",
+    "rose",
+    "crop",
+    "growable",
+	"valentine"
+  ],
+  "code": "mods.ValentinesDay.plant.HeartRose",
+  "scytheable": {},
+  "searchable": false,
+  "variants": [
+    "mods/ValentinesDay/plant/HeartRose.qb?size={16,16,16}?offset={0,0,0}",
+    "mods/ValentinesDay/plant/HeartRose.qb?size={16,16,16}?offset={16,0,0}",
+    "mods/ValentinesDay/plant/HeartRose.qb?size={16,16,16}?offset={32,0,0}",
+    "mods/ValentinesDay/plant/HeartRose.qb?size={16,16,16}?offset={48,0,0}",
+    "mods/ValentinesDay/plant/HeartRose.qb?size={16,16,16}?offset={64,0,0}",
+    "mods/ValentinesDay/plant/HeartRose.qb?size={16,16,16}?offset={80,0,0}"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "code": "mods.ValentinesDay.particle.Chocolate",
+  "angularVelocity": 0.5,
+  "color": "FFD2691E",
+  "colorSpread": {
+    "x": 0.02,
+    "y": 0.02,
+    "z": 0.1
+  },
+  "emitDuration": 1.0,
+  "emitVelocity": {
+    "x": 0.0,
+    "y": 1.0,
+    "z": 0.0
+  },
+  "emitVelocitySpread": {
+    "x": 1.5,
+    "y": -1.5,
+    "z": 1.5
+  },
+  "gravityFactor": {
+    "x": 0.0,
+    "y": -0.09,
+    "z": 0.0
+  },
+  "liveDuration": 1.0,
+  "particlesPerSecond": 150.0,
+  "position": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "positionSpread": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "scale": 0.8,
+  "scaleSpread": 0.25
+}

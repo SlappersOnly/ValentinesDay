@@ -1,0 +1,28 @@
+{
+    "__inherits": "staxel/tileObject/base.config",
+    "code": "mods.ValentinesDay.GiftBox",
+    "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+    "categories": [
+        "valentine",
+        "treasure",
+        "loot",
+        "chest",
+        "pink"
+    ],
+    "randomizePosition": false,
+    "tileStateKind": "staxel.tileState.Lootable",
+    "voxels": "mods/ValentinesDay/GiftBox/GiftBox.qb",
+    "pricing": {
+        "buyable": false,
+        "catalogueUnlockedFromStart": false,
+        "sellPrice": 600,
+        "value": 1000
+    },
+    "lootable": {
+        "lootEffect": "mods.ValentinesDay.effect.LootGiftBox",
+        "usedTile": "mods.ValentinesDay.GiftBoxUsed",
+        "singleUse": true,
+        "treasure": "mods.ValentinesDay.treasure.GiftBox"
+    },
+    "searchable": true
+}

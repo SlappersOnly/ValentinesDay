@@ -1,0 +1,25 @@
+{
+  "code": "mods.ValentinesDay.treasure.GiftBox",
+  "entries": [
+    {
+      "weight": 100.0,
+      "items": [
+        {
+		  "kind": "staxel.item.Placer",
+          "tile": "mods.ValentinesDay.HeartWallShelf",
+		  "quantity" : 1
+        },
+        {
+		  "kind": "staxel.item.Placer",
+          "tile": "mods.ValentinesDay.HeartShelf",
+		  "quantity" : 1
+        },
+        {
+		  "kind": "staxel.item.Placer",
+          "tile": "mods.ValentinesDay.HeartRoseFlower",
+		  "quantity" : 1
+        }
+      ]
+    }
+  ]
+}

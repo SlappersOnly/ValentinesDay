@@ -1,0 +1,95 @@
+{
+  "code": "mods.ValentinesDay.treasure.ValentineChocolate",
+  "entries": [
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.ChocolateBall",
+		  "quantity" : 1
+        }
+      ]
+	},
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.ChocolateCylinder",
+		  "quantity" : 1
+        }
+      ]
+	},
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.ChocolateDome",
+		  "quantity" : 1
+        }
+      ]
+	},
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.ChocolateDome2",
+		  "quantity" : 1
+        }
+      ]
+	},
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.ChocolateTriangle",
+		  "quantity" : 1
+        }
+      ]
+	},
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.WhiteChocolateBall",
+		  "quantity" : 1
+        }
+      ]
+	},
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.WhiteChocolateBall2",
+		  "quantity" : 1
+        }
+      ]
+	},
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.WhiteChocolateHeart",
+		  "quantity" : 1
+        }
+      ]
+	},
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.WhiteChocolateHeartSwirl",
+		  "quantity" : 1
+        }
+      ]
+	},
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.WhiteChocolateRectangle",
+		  "quantity" : 1
+        }
+      ]
+	},
+  ]
+}

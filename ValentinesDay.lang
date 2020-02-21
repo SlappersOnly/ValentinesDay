@@ -1,0 +1,24 @@
+language.code=en-GB
+language=English
+
+mods.ValentinesDay.sender.BucketBrigade=Your Secret Admirer
+mods.ValentinesDay.mail.subject=♥Be My Valentine♥
+mods.ValentinesDay.mail.body=Greetings ^c:1486b0;$playername;^c:pop;! \n\n This gift is for the Staxel resident that is sweeter than any ^c:d03e37;Heart-Shaped Box of Chocolates^c:pop;.\n\nHappy Valentine’s Day!
+
+mods.ValentinesDay.mail.subject2=Happy "Not Valentine"
+mods.ValentinesDay.mail.body2=I hope you enjoyed your weekend ^c:1486b0;$playername;^c:pop;! \n\n Valentine's Day was much more fun when spending it with a great friend.\n\nI thought you would appreciate this gift to help shelf your memories.
+
+mods.ValentinesDay.ChocolateBall.name=Valentine Chocolate
+mods.ValentinesDay.ChocolateCylinder.name=Valentine Chocolate
+mods.ValentinesDay.ChocolateDome.name=Valentine Chocolate
+mods.ValentinesDay.ChocolateDome2.name=Valentine Chocolate
+mods.ValentinesDay.ChocolateTriangle.name=Valentine Chocolate
+mods.ValentinesDay.WhiteChocolateBall.name=Valentine Chocolate
+mods.ValentinesDay.WhiteChocolateBall2.name=Valentine Chocolate
+mods.ValentinesDay.WhiteChocolateHeart.name=Valentine Chocolate
+mods.ValentinesDay.WhiteChocolateRectangle.name=Valentine Chocolate
+mods.ValentinesDay.WhiteChocolateHeartSwirl.name=Valentine Chocolate
+
+mods.ValentinesDay.HeartRoseFlower.description=Decorative Heart Rose flower only
+mods.ValentinesDay.BoxOfChocolatesDecorative.description= Decorative Box of Chocolates only
+mods.ValentinesDay.GiftBoxDecorative.description= Decorative Gift Box only

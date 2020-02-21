@@ -1,0 +1,25 @@
+{
+  "code": "mods.ValentinesDay.reactions.ValentineChocolate",
+  "recipeStep": "mix",
+  "tools": [],
+  "docks": ["staxel.tileObject.serverVillage.MixingStation"],
+  "reagents": [
+    {
+          "code": "mods.ValentinesDay.HeartPetal",
+          "quantity": 1
+    },
+    {
+          "code": "staxel.item.crafting.CandyChocolateBar",
+          "quantity": 1
+    }
+  ],
+  "results": [{"reactionTreasure": "mods.ValentinesDay.treasure.ValentineChocolate"}],
+  "moveResultsToSite": "results",
+  "duration": 5,
+  "triggerDurationCraftManually": true,
+  "effectTrigger": "staxel.effect.DockItem",
+  "triggerDockAction": "staxel.entityAction.ToggleMixerAction",
+  "triggerDockActionOnCompletion": "staxel.entityAction.ToggleMixerAction",
+  "effect": "staxel.effect.cooking.Mixer",
+  "processDrawable": "sludge"
+}

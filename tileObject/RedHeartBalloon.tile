@@ -1,0 +1,30 @@
+{
+    "interactActionTrigger": "staxel.entityAction.BreakAndPickupAction",
+    "__inherits": "staxel/tileObject/base.config",
+    "code": "mods.ValentinesDay.RedHeartBalloon",
+    "floats": true,
+    "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+    "tilePlacement": {
+        "inHandRotation": {
+            "x": -1.1,
+            "y": 0,
+            "z": 0
+        },
+        "inHandScale": 2
+    },
+    "categories": ["balloon", "red", "valentine"],
+    "randomizePosition": false,
+    "compound": {"size": {
+        "x": 1,
+        "y": 2,
+        "z": 1
+    }},
+    "voxels": "mods/ValentinesDay/tileObject/RedHeartBalloon.qb",
+    "pricing": {
+        "buyable": true,
+        "catalogueUnlockedFromStart": false,
+        "sellPrice": 30,
+        "value": 50
+    },
+    "searchable": true
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "staxel.mail.item",
+  "icon": "mods/ValentinesDay/ValentineLetterIcon.png",
+  "readIcon": "mods/ValentinesDay/ValentineLetterIconOpen.png",
+  "code": "mods.ValentinesDay.mail.Valentine2",
+  "sender": "mods.ValentinesDay.sender.BucketBrigade",
+  "subject": "mods.ValentinesDay.mail.subject2",
+  "body": "mods.ValentinesDay.mail.body2",
+  "postDatedMail": {
+    "startDay": 14,
+    "startMonth": 2,
+    "startYear": 2020,
+    "endDay": 25,
+    "endMonth": 2,
+    "endYear": 2020,
+    "repeatYearly": false
+  },
+  "itemMail": {
+    "claimedIcon": "staxel/ui/image/Mail/LetterIconOpen.png",
+    "items": [
+      {
+        "kind": "staxel.item.Placer",
+        "tile": "mods.ValentinesDay.GiftBox",
+        "quantity": 1
+      }
+    ]
+  }
+}

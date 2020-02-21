@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.ValentinesDay.reactions.GiantTeddy",
+  "recipeStep": "assemble",
+  "tools": [],
+  "reagents": [
+    {
+          "code": "mods.ValentinesDay.HeartPetal",
+          "quantity": 3
+    },
+    {
+          "code": "staxel.item.crafting.Rope",
+          "quantity": 2
+    },
+    {
+          "code": "staxel.item.crafting.Glue",
+          "quantity": 2
+    },
+    {
+          "code": "staxel.item.crafting.SackCloth",
+          "quantity": 3
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.ValentinesDay.GiantTeddy",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}

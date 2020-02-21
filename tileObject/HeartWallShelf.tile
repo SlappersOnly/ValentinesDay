@@ -1,0 +1,43 @@
+{
+	"__inherits" : "staxel/docks/dockBase.config",
+	"code" : "mods.ValentinesDay.HeartWallShelf",
+	"dockDefinition" : "mods.ValentinesDay.docks.HeartWallShelf",
+	"voxels" : "mods/ValentinesDay/tileObject/HeartWallShelf.qb",
+    "categories": [
+        "container",
+        "storage",
+        "valentine",
+        "furniture",
+        "cabinet",
+        "closet",
+        "cupboard",
+        "pantry",
+        "credenza",
+        "double",
+        "red"
+    ],
+  "autoTileInfo": [
+    {
+      "directionsToLookIn": [{"direction": "left", "tileCategoriesToLookFor": ["block"]}],
+      "results": [{"rotation": 4}]
+    },
+    {
+      "directionsToLookIn": [{"direction": "back", "tileCategoriesToLookFor": ["block"]}],
+      "results": [{"rotation": 1}]
+    },
+    {
+      "directionsToLookIn": [{"direction": "right", "tileCategoriesToLookFor": ["block"]}],
+      "results": [{"rotation": 2}]
+    }
+  ],
+	//"light" : 1.0,
+	//"emissiveColor" : "ffaaacaf",
+	"compound" : {"size" : { "x" : 1, "y" : 2, "z" : 2 }, "specification" : "CCXC"},
+	"prefetchTileState" : true,
+	"pricing" : {"value" : 280, "sellPrice" : 5},
+	"wallPushOut" : false,
+	"attachToBelow" : false,
+    "attachToSide": true,
+	"placementDirections" : [ "xn" ],
+	"attachmentDirections" : [ "yn", "yp", "zn", "zp" ]
+}

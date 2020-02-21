@@ -1,0 +1,29 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.ValentinesDay.reactions.HeartShelf",
+  "recipeStep": "assemble",
+  "tools": [],
+  "reagents": [
+    {
+		  "code": "staxel.item.crafting.Lumber",
+		  "quantity": 2
+    },
+    {
+          "kind": "staxel.item.Placer",
+          "tile": "staxel.tileObject.serverVillage.Bookshelf",
+		  "quantity" : 1
+    },
+    {
+          "code": "mods.ValentinesDay.HeartPetal",
+          "quantity": 4
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.ValentinesDay.HeartShelf",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}

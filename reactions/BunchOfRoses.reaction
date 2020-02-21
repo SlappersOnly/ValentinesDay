@@ -1,0 +1,28 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.ValentinesDay.reactions.BunchOfRoses",
+  "recipeStep": "assemble",
+  "tools": [],
+  "reagents": [
+    {
+          "code": "mods.ValentinesDay.HeartPetal",
+          "quantity": 1
+    },
+    {
+          "code": "staxel.item.crafting.RedPetal",
+          "quantity": 2
+    },
+    {
+          "code": "staxel.item.crafting.YellowPetal",
+          "quantity": 2
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.ValentinesDay.BunchOfRoses",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}

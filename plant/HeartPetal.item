@@ -1,0 +1,37 @@
+{
+  "categories": [
+    "flower",
+    "color",
+    "dye",
+    "red",
+	"valentine"
+  ],
+  "code": "mods.ValentinesDay.HeartPetal",
+  "icon": "mods/ValentinesDay/plant/HeartPetal.qb",
+  "inHand": "mods/ValentinesDay/plant/HeartPetal.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.56
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 40,
+    "value": 50
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}
+

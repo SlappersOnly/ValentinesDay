@@ -1,0 +1,21 @@
+{
+    "__inherits": "staxel/tileObject/base.config",
+    "code": "mods.ValentinesDay.BunchOfRoses",
+    "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+    "tilePlacement": {"inHandScale": 2},
+    "categories": ["roses", "red", "yellow", "flowers", "valentine"],
+    "randomizePosition": false,
+    "compound": {"size": {
+        "x": 1,
+        "y": 2,
+        "z": 1
+    }},
+    "voxels": "mods/ValentinesDay/tileObject/BunchOfRoses.qb",
+    "pricing": {
+        "buyable": true,
+        "catalogueUnlockedFromStart": false,
+        "sellPrice": 30,
+        "value": 50
+    },
+    "searchable": true
+}

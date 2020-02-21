@@ -1,0 +1,50 @@
+{
+  "code": "mods.ValentinesDay.treasure.BoxOfChocolates",
+  "entries": [
+    {
+      "weight": 100.0,
+      "items": [
+        {
+		  "quantity" : 1,
+          "code": "mods.ValentinesDay.ChocolateBall"
+        },
+        {
+		  "quantity" : 1,
+          "code": "mods.ValentinesDay.ChocolateCylinder"
+        },
+        {
+		  "quantity" : 1,
+          "code": "mods.ValentinesDay.ChocolateDome"
+        },
+        {
+		  "quantity" : 1,
+          "code": "mods.ValentinesDay.ChocolateDome2"
+        },
+        {
+		  "quantity" : 1,
+          "code": "mods.ValentinesDay.ChocolateTriangle"
+        },
+        {
+		  "quantity" : 1,
+          "code": "mods.ValentinesDay.WhiteChocolateBall"
+        },
+        {
+		  "quantity" : 1,
+          "code": "mods.ValentinesDay.WhiteChocolateBall2"
+        },
+        {
+		  "quantity" : 1,
+          "code": "mods.ValentinesDay.WhiteChocolateHeart"
+        },
+        {
+		  "quantity" : 1,
+          "code": "mods.ValentinesDay.WhiteChocolateHeartRectangle"
+        },
+        {
+		  "quantity" : 1,
+          "code": "mods.ValentinesDay.WhiteChocolateHeartSwirl"
+        }
+      ]
+    }
+  ]
+}

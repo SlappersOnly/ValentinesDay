@@ -1,0 +1,25 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.ValentinesDay.reactions.PurpleHeartBalloon",
+  "recipeStep": "assemble",
+  "tools": [],
+  "reagents": [
+    {
+          "kind": "staxel.item.Placer",
+          "tile": "staxel.tileObject.balloon.PurpleBalloon",
+		  "quantity" : 1
+    },
+    {
+          "code": "mods.ValentinesDay.HeartPetal",
+          "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.ValentinesDay.PurpleHeartBalloon",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}

@@ -1,0 +1,20 @@
+{
+    "__inherits": "staxel/tileObject/base.config",
+    "code": "mods.ValentinesDay.BoxOfChocolatesDecorative",
+    "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+    "categories": [
+        "valentine",
+        "chocolate",
+        "chest",
+        "red"
+    ],
+    "randomizePosition": false,
+    "voxels": "mods/ValentinesDay/chocolate/BoxOfChocolates.qb",
+    "pricing": {
+        "buyable": true,
+        "catalogueUnlockedFromStart": false,
+        "sellPrice": 50,
+        "value": 100
+    },
+    "searchable": true
+}

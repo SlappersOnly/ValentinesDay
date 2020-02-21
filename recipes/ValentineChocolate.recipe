@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/crafting/recipes/craftingRecipe.config",
+  "code": "mods.ValentinesDay.recipes.ValentineChocolate",
+  "grouping": "Valentine",
+  "ingredients": [
+    {
+          "code": "mods.ValentinesDay.HeartPetal",
+          "quantity": 1
+    },
+    {
+          "code": "staxel.item.crafting.CandyChocolateBar",
+          "quantity": 1
+    }
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "sellPrice": 351,
+    "value": 585
+  },
+  "result": {
+    "count": 1,
+    "item": {
+      "code": "mods.ValentinesDay.ChocolateBall"
+    }
+  },
+  "searchable": false,
+  "starter": true,
+  "steps": [
+	"mods.ValentinesDay.reactions.ValentineChocolate"
+  ],
+}

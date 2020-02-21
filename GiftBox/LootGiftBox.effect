@@ -1,0 +1,10 @@
+{
+  "__inherits": "staxel/effect/base.config",
+  "code": "mods.ValentinesDay.effect.LootGiftBox",
+  "sounds": [
+    "staxel.sound.sfx.loot.LootPetals"
+  ],
+  "particles": [
+    "mods.ValentinesDay.particle.GiftBox"
+  ]
+}

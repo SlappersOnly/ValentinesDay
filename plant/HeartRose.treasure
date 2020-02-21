@@ -1,0 +1,28 @@
+{
+  "code": "mods.ValentinesDay.treasure.HeartRose",
+  "entries": [
+    {
+      "weight": 95.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.HeartPetal",
+		  "quantity" : 1
+        }
+      ]
+	},
+	{
+      "weight": 5.0,
+      "items": [
+        {
+          "code": "mods.ValentinesDay.HeartPetal",
+		  "quantity" : 1
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.ValentinesDay.flower.HeartRose",
+		  "quantity" : 1
+        }
+      ]
+    }
+  ]
+}
