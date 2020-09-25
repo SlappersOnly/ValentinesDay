@@ -1,0 +1,7 @@
+{
+  "code": "mods.ValentinesDay.personality.Cupid",
+  "idleScript": "staxel.script.StandAroundIdle",
+  "primaryDialogue": "mods.ValentinesDay.dialogue.CupidPrimary",
+  "canGiveQuests": false,
+  "canOverrideBehaviour": false
+}

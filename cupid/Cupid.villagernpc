@@ -1,0 +1,10 @@
+{
+  "code": "mods.ValentinesDay.character.Cupid",
+  "name": "Cupid Guide",
+  "personality": "mods.ValentinesDay.personality.Cupid",
+  "initialDesign": "staxel.village.design.VillagerMale",
+  "initialOutfit": "mods.ValentinesDay.outfit.Cupid",
+  "polaroid": "staxel/village/character/polaroids/RainbowButterflyPolaroid.png",
+  "questVillager": true,
+  "acceptsGift": false
+}

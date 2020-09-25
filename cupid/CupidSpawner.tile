@@ -1,0 +1,19 @@
+{
+  "__inherits": "staxel/spawnCrate/VillagerCrate.config",
+  "code": "mods.ValentinesDay.CupidSpawner.GiftBox",
+  "customRendererVoxels": "mods/ValentinesDay/cupid/CupidSpawner.qb",
+  "searchable": true,
+  "canBeGifted": false,
+  "spawner": {
+    "destroyDelay": 1000000,
+    "spawnDelay": 0,
+    "spawnEmote": "",
+    "spawnParticles": "",
+    "suppressRendering": true,
+    "villager": {
+      "code": "mods.ValentinesDay.character.Cupid",
+      "spawnScript": "staxel.script.StandAroundIdle"
+    }
+  },
+  "voxels": "mods/ValentinesDay/cupid/CupidSpawner.qb"
+}

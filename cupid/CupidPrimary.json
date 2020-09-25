@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Start",
+    "body": [
+      "<<lockPlayerInConversation>>",
+      "<<typewriterMode on>>",
+      "Hi ^c:1486b0;$playername;^c:pop; and welcome to the Staxel Server #line:10000100",
+      "<<emote staxel.emote.Bow>>",
+      "Insert rules here #line:10000200",
+      "<<branchCurrentSeasonIs Summer Summer>>",
+      "<<branchCurrentSeasonIs Winter Winter>>",
+      "<<branchCurrentSeasonIs Spring Spring>>",
+      "<<branchCurrentSeasonIs Autumn Autumn>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 538,
+      "y": 260
+    }
+  },
+  {
+    "title": "Summer",
+    "body": [
+      "It is Summer #line:10001100",
+      "<<emote staxel.emote.Surprise>>",
+      "some dialogue here#line:10001200",
+      "Here is 1 sprinkler.#line:10001300",
+      "<<giveItemToPlayer tilePlacer staxel.tileObject.farm.LargeSprinkler>>",
+      "2 onion seed packets#line:10001400",
+      "<<giveItemToPlayer plant staxel.crop.Onion 2>>",
+      "2 sunflower seed packets#line:10001500",
+      "<<giveItemToPlayer plant staxel.crop.Sunflower 2>>",
+      "and 2 coffee bean seed packets#line:10001600",
+      "<<giveItemToPlayer plant staxel.crop.CoffeeBean 2>>",
+      "to get you started. #line:10001700",
+      "These seeds all grow in all seasons. #line:10001800",
+      "Enjoy!! #line:10001900",
+      "<<emote staxel.emote.Wave>>",
+      "<<despawnSelf>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 291,
+      "y": 493
+    }
+  },
+  {
+    "title": "Winter",
+    "body": [
+      "It is Winter #line:10003100",
+      "<<emote staxel.emote.Surprise>>",
+      "some dialogue here#line:10003200",
+      "Here is 1 sprinkler.#line:10003300",
+      "<<giveItemToPlayer tilePlacer staxel.tileObject.farm.LargeSprinkler>>",
+      "2 onion seed packets#line:10003400",
+      "<<giveItemToPlayer plant staxel.crop.Onion 2>>",
+      "2 sunflower seed packets#line:10003500",
+      "<<giveItemToPlayer plant staxel.crop.Sunflower 2>>",
+      "and 2 coffee bean seed packets#line:10003600",
+      "<<giveItemToPlayer plant staxel.crop.CoffeeBean 2>>",
+      "to get you started. #line:10003700",
+      "These seeds all grow in all seasons. #line:10003800",
+      "Enjoy!! #line:10003900",
+      "<<emote staxel.emote.Wave>>",
+      "<<despawnSelf>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 773,
+      "y": 491
+    }
+  },
+  {
+    "title": "Autumn",
+    "body": [
+      "It is Autumn #line:10002100",
+      "<<emote staxel.emote.Surprise>>",
+      "some dialogue here#line:10002200",
+      "Here is 1 sprinkler.#line:10002300",
+      "<<giveItemToPlayer tilePlacer staxel.tileObject.farm.LargeSprinkler>>",
+      "2 onion seed packets#line:10002400",
+      "<<giveItemToPlayer plant staxel.crop.Onion 2>>",
+      "2 sunflower seed packets#line:10002500",
+      "<<giveItemToPlayer plant staxel.crop.Sunflower 2>>",
+      "and 2 coffee bean seed packets#line:10002600",
+      "<<giveItemToPlayer plant staxel.crop.CoffeeBean 2>>",
+      "to get you started. #line:10002700",
+      "These seeds all grow in all seasons. #line:10002800",
+      "Enjoy!! #line:10002900",
+      "<<emote staxel.emote.Wave>>",
+      "<<despawnSelf>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 543,
+      "y": 500
+    }
+  },
+  {
+    "title": "Spring",
+    "body": [
+      "It is Spring #line:10004100",
+      "<<emote staxel.emote.Surprise>>",
+      "some dialogue here#line:10004200",
+      "Here is 1 sprinkler.#line:10004300",
+      "<<giveItemToPlayer tilePlacer staxel.tileObject.farm.LargeSprinkler>>",
+      "2 onion seed packets#line:10004400",
+      "<<giveItemToPlayer plant staxel.crop.Onion 2>>",
+      "2 sunflower seed packets#line:10004500",
+      "<<giveItemToPlayer plant staxel.crop.Sunflower 2>>",
+      "and 2 coffee bean seed packets#line:10004600",
+      "<<giveItemToPlayer plant staxel.crop.CoffeeBean 2>>",
+      "to get you started. #line:10004700",
+      "These seeds all grow in all seasons. #line:100041800",
+      "Enjoy!! #line:10004900",
+      "<<emote staxel.emote.Wave>>",
+      "<<despawnSelf>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1031,
+      "y": 482
+    }
+  }
+]

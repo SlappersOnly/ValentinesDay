@@ -19,7 +19,7 @@
         },
         {
           "kind": "staxel.item.Placer",
-          "tile": "mods.ValentinesDay.flower.HeartRose",
+          "tile": "mods.ValentinesDay.HeartRoseFlower",
 		  "quantity" : 1
         }
       ]

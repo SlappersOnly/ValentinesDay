@@ -1,0 +1,13 @@
+{
+  "bodyType": [
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "code": "mods.ValentinesDay.fullBodyOutfits.Cupid",
+  "kind": "Shirt",
+  "model": "mods/ValentinesDay/cupid/Cupid.qb",
+  "palettes": [
+    "staxel.palette.grey"
+  ],
+  "searchable": false,
+  "subcategory": "tshirt"
+}
